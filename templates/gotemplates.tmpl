@@ -1,0 +1,17 @@
+{{define "eps.source" -}}
+<html>
+    <body>
+        <p>Hello, November 13 demo!</p>
+        <h1> Hey Sonia </h1>
+        <h1>{{.name}}</h1>
+        <p>{{.description}}</p>
+        <p>Color: {{.color}}</p>
+        <p>Size: {{.size}}</p>
+    </body>
+</html>
+{{end}}
+
+
+{{define "eps.url" -}}
+{{.name}}-{{.entityId}}-{{.locale}}.html
+{{- end}}
