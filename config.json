@@ -10,7 +10,7 @@
 	"features": [
 		{
 			"name": "Test Page",
-			"streamLabel": "account-2843600/locationPages",
+			"streamLabel": "m4pages-demo/pages-processing",
 			"goTemplateEntityPageSet": {
 				"template": "eps.source",
 				"urlTemplate": "eps.url"
