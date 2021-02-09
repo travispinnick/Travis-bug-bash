@@ -1,3 +1,3 @@
 # m4test
 
-Update 5
+Update 6
