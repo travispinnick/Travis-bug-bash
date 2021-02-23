@@ -15,8 +15,31 @@
 				"template": "location.source",
 				"urlTemplate": "location.url"
 			}
+		},
+		{
+			"name": "Product Page",
+			"streamLabel": "products",
+			"goTemplateEntityPageSet": {
+				"template": "product.source",
+				"urlTemplate": "product.url"
+			}
+		},
+		{
+			"name": "FAQ Page",
+			"streamLabel": "faqs",
+			"goTemplateEntityPageSet": {
+				"template": "faq.source",
+				"urlTemplate": "faq.url"
+			}
+		},
+		{
+			"name": "Event Page",
+			"streamLabel": "events",
+			"goTemplateEntityPageSet": {
+				"template": "event.source",
+				"urlTemplate": "event.url"
+			}
 		}
-
 	],
 	"ci_config": {
 		"output_directories": ["templates", "desktop"],
