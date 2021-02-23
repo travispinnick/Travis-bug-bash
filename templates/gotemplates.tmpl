@@ -1,20 +1,17 @@
 
-{{define "eps.url" -}}
+{{define "location.url" -}}
 {{.entityId}}-{{.locale}}.html
 {{- end}}
 
 
-{{define "eps.source" -}}
+{{define "location.source" -}}
 <html>
     <body>
        
 
-        <h1> Hello Brian! </h1>
-
-        <h1>{{.name}}</h1>
-        <p>{{.description}}</p>
-        <p>Color: {{.color}}</p>
-        <p>Size: {{.size}}</p>
+        <h1> Welcome to Luc's Electronics - {{.name}}</h1>
+        <p>{{.address}}</p>
+        <p>Hours: {{.hours}}</p>
     </body>
 </html>
 {{end}}

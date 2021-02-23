@@ -9,11 +9,11 @@
 	"requireArtifactBuild": false,
 	"features": [
 		{
-			"name": "Test Page",
-			"streamLabel": "m4pages-demo/pages-processing",
+			"name": "Location Page",
+			"streamLabel": "locations",
 			"goTemplateEntityPageSet": {
-				"template": "eps.source",
-				"urlTemplate": "eps.url"
+				"template": "location.source",
+				"urlTemplate": "location.url"
 			}
 		}
 
