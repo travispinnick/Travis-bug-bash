@@ -7,8 +7,6 @@
 {{define "location.source" -}}
 <html>
     <body>
-       
-
         <h1> Welcome to Luc's Electronics - {{.name}}</h1>
         <p>{{.address}}</p>
         <p>Hours: {{.hours}}</p>
@@ -16,3 +14,58 @@
 </html>
 {{end}}
 
+{{define "product.url" -}}
+{{.entityId}}-{{.locale}}.html
+{{- end}}
+
+
+{{define "product.source" -}}
+<html>
+    <body>
+        <h1>{{.name}}</h1>
+        <img src={{.photoGallery}} alt="photo">
+        <p>SKU: {{.sku}}</p>
+        <p>{{.richTextDescription}}</p>
+        <div>
+            <span>{{.size}}</span>
+            <span>{{.price}}</span>
+        </div>
+    </body>
+</html>
+{{end}}
+
+
+{{define "faq.url" -}}
+{{.entityId}}-{{.locale}}.html
+{{- end}}
+
+
+{{define "faq.source" -}}
+<html>
+    <body>
+        <h1>{{.name}}</h1>
+        <p>{{.answer}}</p>
+    </body>
+</html>
+{{end}}
+
+
+{{define "event.url" -}}
+{{.entityId}}-{{.locale}}.html
+{{- end}}
+
+
+{{define "event.source" -}}
+<html>
+    <body>
+        <h1>{{.name}}</h1>
+        <h2>{{.time}}</h2>
+        <h3>{{.linkedLocation}}</h3>
+        <img src={{.photoGallery}} alt="photo">
+        <div>
+            {{.description}}
+        </div>
+        <p>{{.isFreeEvent}}</p>
+    </body>
+</html>
+{{end}}
