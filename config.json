@@ -10,7 +10,7 @@
 	"features": [
 		{
 			"name": "Location Page",
-			"streamLabel": "locations",
+			"streamLabel": "account-3434922/locations",
 			"goTemplateEntityPageSet": {
 				"template": "location.source",
 				"urlTemplate": "location.url"
@@ -18,7 +18,7 @@
 		},
 		{
 			"name": "Product Page",
-			"streamLabel": "products",
+			"streamLabel": "account-3434922/products",
 			"goTemplateEntityPageSet": {
 				"template": "product.source",
 				"urlTemplate": "product.url"
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "FAQ Page",
-			"streamLabel": "faqs",
+			"streamLabel": "account-3434922/faqs",
 			"goTemplateEntityPageSet": {
 				"template": "faq.source",
 				"urlTemplate": "faq.url"
@@ -34,7 +34,7 @@
 		},
 		{
 			"name": "Event Page",
-			"streamLabel": "events",
+			"streamLabel": "account-3434922/events",
 			"goTemplateEntityPageSet": {
 				"template": "event.source",
 				"urlTemplate": "event.url"
