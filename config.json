@@ -23,23 +23,7 @@
 				"template": "product.source",
 				"urlTemplate": "product.url"
 			}
-		},
-		{
-			"name": "FAQ Page",
-			"streamLabel": "account-3434922/faqs",
-			"goTemplateEntityPageSet": {
-				"template": "faq.source",
-				"urlTemplate": "faq.url"
-			}
-		},
-		{
-			"name": "Event Page",
-			"streamLabel": "account-3434922/events",
-			"goTemplateEntityPageSet": {
-				"template": "event.source",
-				"urlTemplate": "event.url"
-			}
-		}
+		}		
 	],
 	"ci_config": {
 		"output_directories": ["templates", "desktop"],
