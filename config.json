@@ -10,7 +10,7 @@
 	"features": [
 		{
 			"name": "Location Page",
-			"streamLabel": "account-3434922/locations",
+			"streamLabel": "account-2957343/locations",
 			"goTemplateEntityPageSet": {
 				"template": "location.source",
 				"urlTemplate": "location.url"
@@ -18,7 +18,7 @@
 		},
 		{
 			"name": "Product Page",
-			"streamLabel": "account-3434922/products",
+			"streamLabel": "account-2957343/products",
 			"goTemplateEntityPageSet": {
 				"template": "product.source",
 				"urlTemplate": "product.url"
